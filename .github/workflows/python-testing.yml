@@ -17,7 +17,7 @@ on:
         required: false
         type: boolean
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '*/30 * * * *'
 
 jobs:
   build:
